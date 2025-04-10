@@ -75,7 +75,8 @@ Replit 多點路徑規劃及 LINE Bot 通知工具
 - 請確保程式碼中包含 Google Maps Geocoding API 與 Routes API 的呼叫範例（請使用正確的 API Key 並加上註解說明如何設定）。
 - LINE Bot 部分請包含 LINE Messaging API 的整合範例，並附上 webhook 設定的範例與 Channel Access Token 管理方式。
 - 整個應用需在 Replit 上順利運行，並能接受外部請求。
-- 請在程式中提供基本錯誤處理，並附上注釋說明各模組的功能與流程。」
+- 請在程式中提供基本錯誤處理，並附上注釋說明各模組的功能與流程。
+```
 
 ### AI 輔助開發的學習要點
 
