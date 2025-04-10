@@ -118,7 +118,7 @@ cp .env.example .env
 
 4. 編輯 `.env` 文件，填入必要的 API 金鑰和設定
 
-```
+```bash
 # Google Maps API 設定
 GOOGLE_MAPS_API_KEY=你的Google_API金鑰
 
@@ -186,12 +186,25 @@ Content-Type: application/json
 - 資料庫：SQLite / PostgreSQL
 - API 整合：Google Maps API、LINE Messaging API
 
-![技術架構圖](screenshots/tech_architecture.png)
-
 ## 貢獻
 
 歡迎提交問題或建議，以幫助改進這個專案！
 
 ## 授權
 
-本專案採用 MIT 授權條款，詳情請參閱 [LICENSE](LICENSE) 文件。 
+本專案採用 MIT 授權條款，詳情請參閱 [LICENSE](LICENSE) 文件。
+
+## AI 開發平台資源
+
+本專案使用以下 AI 平台進行開發：
+
+### Replit
+
+[Replit](https://replit.com) 是一個功能強大的雲端開發環境，讓您可以直接在瀏覽器中編寫、運行和部署代碼，無需本地環境設置。Replit 的 AI 功能（如 vibe coding）可幫助您快速生成專案基礎代碼。
+
+**推薦連結**：[點擊這裡註冊 Replit](https://replit.com/refer/evedevee)  
+歡迎使用我的連結註冊可以獲得10美金！
+
+### ChatGPT
+
+[ChatGPT](https://chatgpt.com/) 是由 OpenAI 開發的大型語言模型，可以幫助您構思專案、優化提示詞、進行代碼審查等。本專案的初始提示詞就是通過與 ChatGPT 的對話生成的。 
