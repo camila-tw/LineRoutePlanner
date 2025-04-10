@@ -151,9 +151,31 @@ npm run dev
    - Google Maps 路線連結
    - 發送至 LINE 的選項
 
-![地址輸入截圖](screenshots/5.png)
+![地址輸入截圖](screenshots/address_input.png)
 
-![路線規劃結果截圖](screenshots/2.png)
+![路線規劃結果截圖](screenshots/route_result.png)
+
+### 範例資料
+
+專案提供兩個CSV測試檔案，位於 `examples` 目錄中：
+
+1. **test_addresses.csv** - 包含台灣各主要城市的地址樣本
+   ```
+   "地點名稱","地址"
+   "台北檢查站","台北市中正區忠孝東路一段100號"
+   "新北服務點","新北市板橋區民生路二段50號"
+   ...
+   ```
+
+2. **taipei_test_addresses.csv** - 包含台北市各區的地址樣本
+   ```
+   "地點名稱","地址"
+   "中山檢查站","台北市中山區中山北路二段50號"
+   "松山服務點","台北市松山區南京東路四段120ATH號"
+   ...
+   ```
+
+您可以直接使用這些範例檔案來測試系統的路線規劃功能。
 
 ### LINE Bot 操作
 
