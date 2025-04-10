@@ -307,6 +307,26 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.status(500).json({ message: "獲取LINE設定失敗" });
     }
   });
+  
+  // LINE Webhook endpoint
+  app.post("/api/line-webhook", async (req: Request, res: Response) => {
+    try {
+      console.log("LINE Webhook 接收到事件:", JSON.stringify(req.body));
+      // 在正式環境中，我們需要驗證簽名
+      // 並處理 LINE 事件（如 好友加入、訊息等）
+      
+      // 必須回傳 200 OK 給 LINE 平台
+      res.status(200).end();
+    } catch (error) {
+      console.error("LINE Webhook 處理失敗:", error);
+      res.status(500).end();
+    }
+  });
+  
+  // Simple GET endpoint for webhook verification
+  app.get("/api/line-webhook", (req: Request, res: Response) => {
+    res.status(200).json({ status: "LINE Webhook endpoint is working" });
+  });
 
   const httpServer = createServer(app);
   return httpServer;
