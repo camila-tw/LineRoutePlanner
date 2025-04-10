@@ -151,10 +151,6 @@ npm run dev
    - Google Maps 路線連結
    - 發送至 LINE 的選項
 
-![地址輸入截圖](screenshots/address_input.png)
-
-![路線規劃結果截圖](screenshots/route_result.png)
-
 ### 範例資料
 
 專案提供兩個CSV測試檔案，位於 `examples` 目錄中：
